@@ -25,7 +25,27 @@
     </header>
 
     <main role="main" aria-label="Chat principal">
-        
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>
+                    <img src="./assets/images/furia-icon.png" alt="Logo da Furia" class="chat-logo">
+                    FuriaBOT
+                </h1>
+            </div>
+
+            <div class="chat-messages">
+                <div class="message bot-message">
+                    <p>Olá! Eu sou o FuriaBOT, seu assistente virtual. Como posso ajudar você hoje?</p>
+                </div>
+            </div>
+
+            <form class="chat-input">
+                <input type="text" name="input-message" id="input-message" placeholder="Digite sua mensagem aqui" aria-label="Campo de entrada de mensagem" autocomplete="off">
+                <button type="submit" class="send-button">
+                    <i class="bi bi-send"></i>
+                </button>
+            </form>
+        </div>
     </main>
 
     <footer>
