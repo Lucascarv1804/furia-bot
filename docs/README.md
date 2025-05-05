@@ -33,6 +33,7 @@
 
 ## 📁 Estrutura de Pastas
 
+```
 furia-bot-project/
 ├── docs/
 │   └── FURIAbot_Documentacao_Inicial.pdf
@@ -46,6 +47,7 @@ furia-bot-project/
 │   │   └── style.css
 │   └── index.html
 └── .gitignore
+```
 
 ---
 
