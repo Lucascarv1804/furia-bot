@@ -34,14 +34,18 @@
 ## 📁 Estrutura de Pastas
 
 furia-bot-project/
-├─ docs/
-│ └─ FURIAbot_Documentacao_Inicial.pdf
-├─ public/
-│ ├─ assets/images/furia-icon.png
-│ ├─ scripts/main.js
-│ ├─ styles/style.css
-│ └─ index.html
-└─ .gitignore
+├── docs/
+│   └── FURIAbot_Documentacao_Inicial.pdf
+├── public/
+│   ├── assets/
+│   │   └── images/
+│   │       └── furia-icon.png
+│   ├── scripts/
+│   │   └── main.js
+│   ├── styles/
+│   │   └── style.css
+│   └── index.html
+└── .gitignore
 
 ---
 
