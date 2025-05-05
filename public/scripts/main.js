@@ -6,7 +6,7 @@ const logo = document.querySelector(".logo");
 function adicionarMensagem(texto, tipo) {
   const msg = document.createElement("div");
   msg.classList.add("message", `${tipo}-message`);
-  msg.innerHTML = texto; // Agora aceita HTML (links clicáveis)
+  msg.innerHTML = texto;
   messagesContainer.appendChild(msg);
   messagesContainer.scrollTop = messagesContainer.scrollHeight;
 }
